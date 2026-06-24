@@ -33,6 +33,28 @@ The core execution logic is governed by a synchronous finite state machine.
 2.  **HEATING State:** Compares ambient temperature to the set point. If the room is colder than the set point, the Red LED fades to indicate active heating. Pressing the state button transitions the system to **COOLING**.
 3.  **COOLING State:** Compares ambient temperature to the set point. If the room is warmer than the set point, the Blue LED fades to indicate active cooling. Pressing the state button loops the system back to **OFF**.
 
+## Questions
+
+* **What did you do particularly well?**
+
+  For this project, I believe I organized myself particularly well and displayed a great showcase of problem-solving. When I came across issues where anything malfunctioned, I was quick to sit down, analyze what went wrong, and fix it, even if it meant starting over.
+  
+* **Where could you improve?**
+
+  I could improve on my state machine diagrams. As a reminder to myself, I need to stop abstracting how the SM works, since any functionality is has should be properly documented.
+  
+* **What tools and/or resources are you adding to your support network?**
+
+  Official documentation was my best friend during this whole course. Being able to read documentation as well as looking at what worked on previous assignments as a reference can help bring the pieces of the puzzle together.
+  
+* **What skills from this project will be particularly transferable to other projects and/or course work?**
+
+  Everything that I did in this project, I plan on using in my future whenever I want to build anything in the embedded systems sector. Additionally, the understanding of how state machines work essentially brings a deeper understanding on how anything in Computer Science works. Although mostly abstracted nowadays, state machines are everywhere and now more complicated than ever.
+  
+* **How did you make this project maintainable, readable, and adaptable?**
+  
+  During my programming journey in this class, I made sure to document every single thing I did by using comments in the code. 
+
 ## Screenshots
 
 ### Thermostat Reading Current Room Temperature
